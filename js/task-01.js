@@ -10,10 +10,10 @@ console.log(`Number of categories: ${items.length}`);
 
 items.forEach(item => {
     const itemsNumber = item.querySelector('h2').textContent;
-    const name = item.querySelectorAll('li').length;
+    const title = item.querySelectorAll('li').length;
 
     console.log(`Category: ${itemsNumber}`);
-    console.log(`Elements: ${name}`)
+    console.log(`Elements: ${title}`)
 });
 
 
